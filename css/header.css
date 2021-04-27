@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-first);
+  border-bottom: 10px solid #000;
+  padding: 10px 20px;
+  
+}
+
+img {
+  box-shadow: 5px 5px 0px var(--color-black-first);
+}
+
+
+nav {
+  text-align: right;
+}
+
+
+a {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-white);
+  font-size: 20px;
+  font-family: "Fira Code", serif, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+  transition: 50ms ease-in-out;
+
+  /* text-decoration: none = tira o under-line do texto; */
+  /* margin = respiro externo */
+  /* fall back = no caso das fontes temos a Fira Code, se não funcionar temos a serif ou sans-serif */
+  /**/
+}
+
+a::before {
+  content: "";
+  background-color: var(--color-second);
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+ 
+a:hover {
+  transform: scale(1.1);
+}
+
+#button {
+  display: inline-block;
+  background-color: var(--color-second);
+  box-shadow: 5px 5px 0px var(--color-black-first);
+  padding: 18px 20px;
+  margin-right: 0;
+  transition: transform 300ms cubic-bezier(.25,.1,.4,1.86);
+}
+
+#button:hover {
+  transform: scale(1.08);
+}
+/* # = seletor de id */
+
+/* display-inline = não pode ser definido altura e largura */
+
+/* line-height = centraliza o botão no texto quando tem uma linha, colocando o mesmo valor ddo height do button */
+
+/* bases do display =  */
+
