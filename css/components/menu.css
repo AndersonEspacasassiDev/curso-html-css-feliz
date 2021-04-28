@@ -1,0 +1,29 @@
+a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 20px;
+    font-family: "Fira Code", serif, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 50ms ease-in-out;
+  
+  }
+    /* text-decoration: none = tira o under-line do texto; */
+    /* margin = respiro externo */
+    /* fall back = no caso das fontes temos a Fira Code, se não funcionar temos a serif ou sans-serif */
+    /**/
+  
+    a:hover {
+    transform: scale(1.1);
+    }
+  
+  a::before {
+    content: "";
+    background-color: var(--color-second);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  }
+  
