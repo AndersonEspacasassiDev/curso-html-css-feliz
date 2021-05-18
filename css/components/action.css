@@ -1,0 +1,26 @@
+.action {
+  display: inline-flex;
+  font-family: 'Fira Code', monospace;
+  align-items: center;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+  /* text-decoration: none = tira o under-line do texto; */
+  /* margin = respiro externo */
+  /* fall back = no caso das fontes temos a Fira Code, se não funcionar temos a serif ou sans-serif */
+  /**/
+
+.action::before {
+  content: "";
+  background-color: var(--color-second);
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+}
+
+.action:hover {
+  transform: scale(1.08);
+}

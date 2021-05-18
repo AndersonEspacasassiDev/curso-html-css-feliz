@@ -1,6 +1,21 @@
-h1 {
+.title {
   font-family: 'Press Start 2P', sans-serif;
-  font-size: 40px;
+  font-size: 38px;
   color: var(--color-second);
   text-shadow: 4px 4px var(--color-black-first); 
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 4px 4px black;
+  transition: transform 300ms cubic-bezier(0.25, 0.1, 0.4, 1.86);
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: scale(1.08);
 }
