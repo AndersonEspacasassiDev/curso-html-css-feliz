@@ -1,4 +1,4 @@
-.title {
+.main-title {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 38px;
   color: var(--color-second);
@@ -20,8 +20,9 @@
   transform: scale(1.08);
 }
 
-.title.-second {
-color: #000;
+.main-title.-second {
+color: #fff;
 text-shadow: none;
 text-align: center;
+
 }
