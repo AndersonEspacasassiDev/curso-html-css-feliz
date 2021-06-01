@@ -8,12 +8,17 @@
 
 .skills-tec .icon {
     margin-right: 25px;
+    width: 85px;
 }
 
 .skills-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skills-tec .title {
+    margin-bottom: 10px;
 }
 
 
