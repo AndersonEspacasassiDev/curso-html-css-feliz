@@ -10,3 +10,10 @@
     margin-bottom: 80px;
 }
 
+.section.-bgBlack {
+    background-color: var(--color-first);
+}
+
+.section.-bdFirst {
+    border-color: black;
+}
