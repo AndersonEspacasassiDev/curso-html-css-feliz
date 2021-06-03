@@ -17,3 +17,7 @@
 .section.-bdFirst {
     border-color: black;
 }
+
+.section.-htFirst {
+    height: 480px;
+}
